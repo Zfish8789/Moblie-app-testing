@@ -1,0 +1,98 @@
+#colors{
+  color: #39ace7;
+  color: #0784b5;
+  color: #414c50;
+  color: #2d383c;
+  color: #192428;
+  color: #535195;
+}
+
+html{
+  background-color: #192428;
+}
+
+.img{
+  width: 10px;
+  height: 10px;
+}
+.TopBar {
+  position: fixed;
+  background-color: #0784b5;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5em;
+  top: 0%;
+  height: 2em;
+  width: 100%;
+  max-height: 5em;
+  max-width: 100%;
+  padding: 0.5vw;
+  padding-top: 2vw;
+}
+.MenuItem{
+  margin-top:1em;
+}
+.LoginMenu{
+  background-color: #0784b5;
+  float: right;
+  padding-inline-end: 0.5em;
+}
+.Popout {
+  display: none;
+  float: left;
+  list-style-type: none;
+  min-width: 100%;
+  max-width: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+.show {
+  display: block;
+}
+li a{
+  color:#fff;
+  margin-left: 0;
+  padding: 0.5em ;
+  text-decoration: none;
+}
+
+.MainItemOne{
+  background-color: #39ace7;
+  color:#ffffff;
+  border-radius: 2em;
+  margin-top: 6em;
+  font-size: 3em;
+  max-height: 10em;
+  overflow:hidden;
+}
+
+.MainItemTwo{
+  background-color: #9137ea;
+  color:#ffffff;
+  border-radius: 2em;
+  margin-top: 1em;
+  font-size: 3em;
+  max-height: 10em;
+  overflow:hidden;
+}
+
+.MainItem{
+  padding-bottom: 1em;
+}
+
+.HeaderOne{
+  color: #535195;
+  margin-left: 2em;
+  padding-bottom: 0em;
+}
+
+.HeaderTwo{
+  color: #32316c;
+  margin-left: 2em;
+  padding-bottom: 0em;
+}
+
+.expand{
+  max-height: 40em;
+}
