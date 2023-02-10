@@ -81,8 +81,13 @@ li a{
   padding-bottom: 1em;
 }
 
+.centered{
+  text-align:center;
+}
+
 .HeaderOne{
   color: #535195;
+  font-size: 2em;
   margin-left: 2em;
   padding-bottom: 0em;
   text-decoration:none;
@@ -90,6 +95,7 @@ li a{
 
 .HeaderTwo{
   color: #32316c;
+  font-size: 2em;
   margin-left: 2em;
   padding-bottom: 0em;
 }
@@ -97,3 +103,4 @@ li a{
 .expand{
   max-height: 40em;
 }
+

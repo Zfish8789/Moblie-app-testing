@@ -19,6 +19,9 @@ function expandItem(className) {
 
 document.onclick = function(event) {
   var target = 'target' in event ? event.target : event.srcElement;
+  if (target.classList.contains("SelectionHref")) {
+    window.location.href = "selection.html";
+  }
   if (!target.classList.contains("menuKept")) {
     var popouts = document.getElementsByClassName("Popout")
     for (var i = 0; i < popouts.length; i++) {

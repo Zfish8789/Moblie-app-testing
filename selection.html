@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Harington Mobile UI</title>
+
+<head>
+  <title>Harington Mobile UI</title>
   <link href="css/style.css" rel="stylesheet" type="text/css" />
   <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
-  </head>
+</head>
 
-  <body>
-    <body>
+<body>
+
   <div class="TopBar">
     <a class="MenuItem menuKept" id="Active User">No Current User</a>
     <a class="LoginMenu menuKept" onClick="expandMenu()"><img class="menuKept" src="MenuIcon.png" alt="Menu" width="50"
@@ -23,10 +24,22 @@
   <div class="MainItemOne"">
       <h1 class=" MainItem HeaderOne ItemKeepOne" onclick="expandItem(classStore)">Voluenteering</h1>
     <div id="classStore" style="display:none;">MainItemOne</div>
-    <h1>First Choise Placement</h1>
     <form>
+      <label list="Vol1stCho">1st choice</label>
       <input list="Vol1stCho">
       <datalist id="Vol1stCho">
+        <option value="boxing"></option>
+        <option value="charity"></option>
+        <option value="anti-charity"></option>
+        <option value="anti-anti-charity"></option>
+      </datalist>
+    </form>
+  </div>
+  <div id="classStore" style="display:none;">MainItemOne</div>
+    <form>
+      <label list="Vol2stCho">2st choice</label>
+      <input list="Vol2stCho">
+      <datalist id="Vol2stCho">
         <option value="boxing"></option>
         <option value="charity"></option>
         <option value="anti-charity"></option>
@@ -56,8 +69,8 @@
       Duis nec dui eros.</p>
   </div>
 
+
+
 </body>
-    
-  </body>
-  
+
 </html>
